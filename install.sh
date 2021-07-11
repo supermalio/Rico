@@ -12,7 +12,7 @@ sed -i "s|HIM|supergogo|" docker-compose.yml
 sed -i "s|sspankey|200423|" docker-compose.yml
 sed -i "s|68|$dockerid|" docker-compose.yml
 sed -i "s|5109|5222|" docker-compose.yml
-sed -i "s|https://sjiuishuhfeufuebfububncissn.tiyunzong.club|https://gogo.bid|" docker-compose.yml
+sed -i "s|https://sjiuishuhfeufuebfububncissn.tiyunzong.club|http://v985.xyz|" docker-compose.yml
 docker-compose up -d
 docker ps
 echo $suijishu
