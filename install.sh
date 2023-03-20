@@ -2,8 +2,8 @@
 cd /etc/XrayR
 read -p "请输入你的节点ID：" dockerid
 echo $dokerid
-sed -i "s|http://127.0.0.1:667|https://metron.gogo.bid|" config.yml
-sed -i "s|123|200423|" config.yml
+sed -i "s|http://127.0.0.1:667|https://flydog.cc|" config.yml
+sed -i "s|123|flydog|" config.yml
 sed -i "s|41|$dockerid|" config.yml
 sed -i 's/EnableProxyProtocol: false/EnableProxyProtocol: true/g' config.yml
 sed -i "s|aaa|2476265480@qq.com|" config.yml
